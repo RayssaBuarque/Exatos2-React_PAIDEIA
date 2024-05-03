@@ -1,0 +1,113 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Sora:wght@100..800&display=swap');
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Sora", sans-serif;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 1rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 100px;
+  }
+  
+  .text {
+    text-align: left;
+    padding: 0 2rem;
+    width: 25%;
+  }
+
+  .text h1 {
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  .btn {
+    background: -webkit-linear-gradient(left, #1d233e, #32557E);
+    color: white;
+    font-family: "Sora", sans-serif;
+    border-radius: 400px;
+    border: #32557e 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .btn_comunidade {
+    background: -webkit-linear-gradient(left, #1d233e, #32557E);
+    color: white;
+    font-family: "Sora", sans-serif;
+    border-radius: 10px;
+    border: #32557e 1px;
+    padding: 14px;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+  }
+
+  /*Materias*/
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

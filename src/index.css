@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.categorias{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.categorias label {
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  margin-top: 5px;
+  margin-right: 15px;
+  
+  font-size: 16px;
+}
+
+label.Oportunidades{
+  background-color:chartreuse;
+}
+label.Eventos{
+  background-color:cadetblue
+}
+label.Jogos{
+  background-color:brown;
+}
+label.Leituras{
+  background-color:rebeccapurple;
+}
+label.Filmes{
+  background-color:chocolate;
+}
+
